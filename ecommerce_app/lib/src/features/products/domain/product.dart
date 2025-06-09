@@ -1,3 +1,4 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 /// * The product identifier is an important concept and can have its own type.
 typedef ProductID = String;
 
@@ -23,4 +24,9 @@ class Product {
   final int availableQuantity;
   final double avgRating;
   final int numRatings;
+
+  @override
+  String toString() {
+    return 'Product(id: $id, imageUrl: $imageUrl, title: $title, description: $description, price: $price, availableQuantity: $availableQuantity, avgRating: $avgRating, numRatings: $numRatings)';
+  }
 }
