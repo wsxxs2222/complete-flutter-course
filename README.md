@@ -1,3 +1,4 @@
+<a href="https://github.com/wsxxs2222/complete-flutter-course/actions"><img src="https://github.com/wsxxs2222/complete-flutter-course/workflows/test-my-app/badge.svg" alt="Build Status"></a>
 # Flutter Foundations Course - eCommerce App
 
 This is the official repo for this course:
